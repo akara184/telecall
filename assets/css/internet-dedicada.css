@@ -1,0 +1,28 @@
+.hero.is-fullheight {
+    min-height: 70vh;
+}
+
+.section.is-large {
+    padding: 7rem 6rem;
+}
+
+/*TITLES DA MINHA SECTION*/
+.alinhado{
+    text-align: center;
+    padding-bottom: 55px;
+  }
+  /*TITLES DA MINHA SECTION*/
+
+.uno {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+    color: #4a4a4a;
+    max-width: 50%;
+    position: relative;
+}
+
+.hoverimg:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }

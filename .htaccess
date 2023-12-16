@@ -1,0 +1,5 @@
+# arquivo de configuração do servidor apache
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /telecall/index.php?pagina=$1  [QSA]

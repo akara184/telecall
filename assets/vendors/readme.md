@@ -1,0 +1,1 @@
+pasta que contém bibliotecas de terceiros e dependências que seu projeto pode precisar para funcionar.

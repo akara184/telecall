@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    padding-top: 60px;
+  }
+  
+  .section.is-large {
+    padding: 6rem 6rem;
+  }
+
+  /* NAVBAR*/
+  .navbar-item img {
+    max-height: 2.75rem;
+  }
+  #buttonlogin {
+    background-color: rgb(216, 22, 38);
+    color: whitesmoke;
+  }
+  #loginIcon {
+    padding-right: 8px;
+  }
+  @media screen and (min-width: 1024px) {
+    #logoid{
+      box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1)
+    }
+  }
+  
+  #navbarMain{
+      box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1)
+  }
+
+  /* FIM DA NAVBAR */
+
+  /*TITLES DA MINHA SECTION*/
+
+/*CORES DE TEXTOS*/
+.blue{
+  border-color: #485fc7;
+color: #3850b7;
+}
+.red{
+  color: rgb(216, 22, 38);
+}
+/*CORES DE TEXTO*/
+
+
+.title{
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+
+
+.hero.is-fullheight {
+  min-height: 40vh;
+}
+.aProduct {
+  background-color: rgb(216, 22, 38);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+.aProduct:hover {
+  transform: scale(1.1);
+  color: white;
+}
+/*TITLES DA MINHA SECTION*/

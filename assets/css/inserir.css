@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("../../assets/img/bluebg.png");
+    background-size: cover;
+    background-attachment: fixed;
+  
+  }
+  
+  
+  .navbar-item img {
+    max-height: 2.75rem;
+  }
+  
+  #buttonlogin {
+    background-color: rgb(216, 22, 38);
+    color: whitesmoke;
+  }
+  
+  #loginIcon {
+    padding-right: 8px;
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1250px) {
+    #responsiveButton {
+      position: absolute;
+      top: auto;
+      right: 0;
+      bottom: 0;
+      transform: translateY(100%);
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    #logoid {
+      box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1)
+    }
+  }
+  
+  #navbarMain {
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1)
+  }
+  
+  /*COMEÇO DA MINHA FORM*/
+  
+  .corVermelho {
+    color: rgb(216, 22, 38);
+  }
+  
+  #pCinza {
+    color: #7c7979;
+  }
+  
+  
+  #cadastro {
+    background-color: rgb(216, 22, 38);
+    color: whitesmoke;
+  }
+  
+  #resetar {
+    background-color: rgb(216, 22, 38);
+    color: whitesmoke;
+  }
+  
+  .exatamente {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  
+  #pcop {
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+    background-color: rgba(95, 92, 92, 0.267);
+  }
+  
+  /* ERROR EM BANCO DE DADOS */
+  
+  .error{
+    color: #af4242;
+    background-color: #fde8ec;
+    padding: 10px;
+    display: none;
+    transform: translateY(-20px);
+    margin-bottom: 20px;
+    font-size: 14px;
+  }

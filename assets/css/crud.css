@@ -1,0 +1,14 @@
+#black {
+    background-color: black
+}
+
+.table.is-narrow td,
+.table.is-narrow th {
+    padding: 0.25em 3.5em;
+}
+
+
+th .centerText {
+    padding-top: 0.25em;
+    padding-left: 9.5em;
+}
