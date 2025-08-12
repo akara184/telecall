@@ -16,3 +16,4 @@
     $app = new App();
 
     //Sessão de verificação, ela só fica no pé do site
+?>

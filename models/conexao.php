@@ -8,16 +8,13 @@
 $host = "localhost";  // <--- o padrão é 'localhost' 
 $user = "root";
 $dataBase = "telecall"; 
-$password = "";
+$password = "123";
 
 $mysqli = new mysqli($host, $user, $password, $dataBase);
 if($mysqli->connect_errno){
  echo "Falha ao conectar: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
       
-
-
-
 
 //NÃO SEI SE O AUTOLOAD VAI CARREGAR O CONEXAO. PHP POR NÃO EXISTIR UM CLASSE, 
 //PORÉM PRECISA HAVER VERIFICAÇÃO SE ELE DAR UM INCLUDE EM ALGUMA PARTE AUTOMATICAMNETE

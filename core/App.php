@@ -11,11 +11,12 @@ class App{
         //Todo metodo séra index
         $metodo = 'index';
         $parametros = array();
-
+        
         // Busca o que está na barra de endereço do navegador,e armazena na variável $url
         if(isset($_GET['pagina']))
         {
             $url = $_GET['pagina'];
+            
         }
         
         // Se a variável $url não estiver vazia, a condição abaixo identica qual será o caminho que será executado
@@ -74,3 +75,4 @@ class App{
                                 
     }
 }
+?>
